@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Prog. Web</a>
+      <a class="navbar-brand" href="index.php">Prog. Web</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -42,6 +42,17 @@
     </div>
   </div>
 </nav>
+
+<div class="container">
+  <div class="row">
+    <div class="jumbotron">
+  <h1>Sistema de Gestión de alumnos</h1>
+  <p>Esta es una plantilla para realizar prácticas de Progamación Web, utilizando PHP y MySql</p>
+  <p><a class="btn btn-primary btn-lg">Más</a></p>
+</div>
+  </div>
+</div>
+
 	<script src="js/bootstrap.js"></script>
 </body>
 </html>
