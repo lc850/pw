@@ -46,10 +46,14 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-0 col-lg-2"></div>
-    <div class="col-xs-12 col-lg-8 well bs-component">
-<form class="form-horizontal" name="formRegistro" method="POST" action="guarda.php">
+    <div class="col-xs-12 col-lg-8">
+      <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Registro de Alumnos</h3>
+  </div>
+  <div class="panel-body">
+    <form class="form-horizontal" name="formRegistro" method="POST" action="guarda.php">
   <fieldset>
-    <legend><h2 align="center">Registro de Alumnos</h2></legend><hr>
     <div class="form-group">
       <label for="inputNombre" class="col-lg-2 control-label">Nombre:</label>
       <div class="col-lg-10">
@@ -99,6 +103,8 @@
     </div>
   </fieldset>
 </form>
+  </div>
+</div>
     </div>
     <div class="col-xs-0 col-lg-2"></div>
   </div>
@@ -106,3 +112,4 @@
 	<script src="js/bootstrap.js"></script>
 </body>
 </html>
+
